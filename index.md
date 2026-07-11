@@ -42,7 +42,7 @@ VibeForge(개인정보 보호책임자: 안세윤, 이하 “운영자”)는 �
 
 ### 광고 서비스
 
-[Google LLC](https://policies.google.com/privacy?hl=ko)는 처리위탁 업체가 아니라 독립적인 광고 서비스 제공자로서 Google Mobile Ads를 통해 대략적인 위치, 앱·광고 상호작용, 진단 정보, 광고 및 기기 식별값을 자체 정책에 따라 처리합니다. 정보는 앱 이용 시 암호화되어 전송되며 전 세계 Google 서버에서 광고 제공·측정·분석과 부정행위 방지를 위해 처리될 수 있습니다. 보관기간은 [Google 보관 정책](https://policies.google.com/technologies/retention?hl=ko)에 따릅니다. 현재 앱에는 광고 정보 처리만 별도로 거부하는 기능이 없으므로, 이를 원하지 않는 경우 앱 이용을 중단할 수 있습니다. 운영자는 개인정보를 판매하지 않습니다.
+앱은 광고 제공을 위해 Google AdMob을 사용합니다. AdMob의 정보 처리는 [Google 개인정보처리방침](https://policies.google.com/privacy?hl=ko)을 따릅니다.
 
 ### 현재가 조회를 위한 외부 API
 
