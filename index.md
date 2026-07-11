@@ -25,6 +25,9 @@ VibeForge(개인정보 보호책임자: 안세윤, 이하 “운영자”)는 �
 
 운영자는 서비스 제공을 위해 Google Firebase, Supabase 및 Oracle Cloud Infrastructure에 필요한 정보 처리를 맡깁니다. 이러한 국외 처리위탁과 보관은 서비스 계약 이행에 필요한 경우로서 개인정보 보호법 제28조의8 제1항 제3호에 따라 처리방침에 공개합니다. 정보는 앱이나 서버 이용 시 암호화된 통신으로 전달됩니다.
 
+<details markdown="1">
+<summary>국외 처리 업체·국가·보관 기준 자세히 보기</summary>
+
 | 이전받는 업체 | 처리하는 정보와 목적 | 처리 국가 | 보관 기준 |
 | --- | --- | --- | --- |
 | [Google LLC](https://policies.google.com/privacy?hl=ko) | 설치·기기 관련 식별값과 보안 신호, 푸시 알림용 식별값과 알림 내용을 이용한 앱 보안, 설정 전달 및 푸시 알림 제공 | 전 세계 Google 서버에서 처리될 수 있으며 특정 국가로 고정되지 않습니다. | 서비스 제공에 필요한 기간 및 [Google 보관 정책](https://policies.google.com/technologies/retention?hl=ko)에 따릅니다. |
@@ -33,7 +36,9 @@ VibeForge(개인정보 보호책임자: 안세윤, 이하 “운영자”)는 �
 
 국외 처리위탁을 원하지 않는 경우 앱 이용 또는 알림 권한 허용을 중단할 수 있습니다. 이 경우 가격 조회나 알림 기능의 전부 또는 일부를 이용할 수 없습니다. 처리 장소와 보관 기준은 외부 업체의 인프라와 정책 변경에 따라 달라질 수 있습니다.
 
-외부 업체의 개인정보 문의는 [Google 개인정보 문의](https://support.google.com/policies/contact/general_privacy_form), `privacy@supabase.io`, Oracle 국내 연락처 `privacy_kr_grp@oracle.com`을 이용할 수 있습니다.
+외부 업체의 개인정보 문의는 [Google 개인정보 문의](https://support.google.com/policies/contact/general_privacy_form), `privacy@supabase.com`, Oracle 국내 연락처 `privacy_kr_grp@oracle.com`을 이용할 수 있습니다.
+
+</details>
 
 ### 광고 서비스
 
