@@ -326,7 +326,7 @@ The [existing public URL](https://vibeforge.asia/privacy/photocleaner/) and orig
 Published: October 18, 2026. App: **ONE TAKE** (`com.vibeforge.onetake`).
 ONE TAKE is preparing for launch. This advance notice describes the features currently prepared and their data-processing boundaries.
 **Live service-notice push messaging (FCM) remains unconnected and blocked.**
-Operational conditions, including retention for analytics and notices, will be finalised and this section updated before launch and actual service operation. This notice does not announce the app's launch or the availability of all optional features.
+The launch policies for analytics retention, optional integrations, and enquiry records are set out below. Their operational implementation and remaining processing details will be verified and this section updated before launch and actual service operation. This notice does not announce the app's launch or the availability of all optional features.
 
 ### ONE TAKE service and on-device data
 
@@ -350,7 +350,11 @@ The app analytics prepared for transmission to Google Analytics for Firebase aft
 
 Turning analytics off blocks new app-event transmission and requests that SDK collection and storage stop. App events are not accumulated while OFF for later transmission. Records already in transit or received by servers are not necessarily cancelled or deleted immediately.
 
-**To be finalised before operation:** the actual scope of SDK automatic collection, detailed-data retention and reset-on-activity settings, aggregated analytics, optional data sharing, and external integrations. Another app's 14-month retention period is not applied to ONE TAKE. This notice must not be used as the final launch Data safety disclosure before those matters are settled.
+**Adopted launch policy:** detailed Analytics user/event data will use a **2-month retention setting**, with **reset on new activity OFF**. Expired data is deleted through Google's monthly deletion process, not necessarily exactly 60 days after collection. Standard aggregated reports are outside this retention setting; we do not promise that all analytics will be deleted after two months.
+
+Analytics will be used only to improve the app. Google Signals, advertising integrations, BigQuery exports, and optional data sharing will initially be disabled or left unconnected. Another app's 14-month retention period does not apply to ONE TAKE.
+
+**Before operation:** we will verify that the actual settings match this policy and confirm the scope of SDK automatic collection and aggregated processing. Adopting this policy does not confirm that the operational settings have already been applied. This pre-launch notice must not be used as the final launch Data safety disclosure before those checks are complete.
 
 ### Optional ONE TAKE updates and service notices
 
@@ -368,7 +372,7 @@ When optional features operate, data sent to Google uses the relevant service's 
 
 AlertCoin's Supabase/Oracle servers, price-alert retention/backup periods, and legal basis for international processing do not apply to ONE TAKE. **Before operating ONE TAKE's optional features, we will finalise and disclose recipients, processing roles, countries, purposes, timing/methods, retention periods, legal grounds, and how to refuse processing and the effects of refusal.** Data and copies already processed by external services follow those services' retention/deletion procedures; uninstalling does not immediately remove everything.
 
-For enquiries and requests for access, correction, deletion, or suspension of processing, contact **vibeforgesoft@gmail.com**. As there are no accounts, it may be difficult to establish the relationship between a requester and particular SDK records. We will explain the outcome or limitations. Turning analytics OFF or deleting an FCM registration will not be presented as confirmation that all historical records have been deleted. Specific retention periods for enquiry emails and handling records, and verification/reply procedures, will be finalised and added here before launch.
+For enquiries and requests for access, correction, deletion, or suspension of processing, contact **vibeforgesoft@gmail.com**. As there are no accounts, it may be difficult to establish the relationship between a requester and particular SDK records. We will explain the outcome or limitations. Turning analytics OFF or deleting an FCM registration will not be presented as confirmation that all historical records have been deleted. For launch, ordinary enquiry emails and handling records will be retained for **90 days after the enquiry is resolved**, then deleted, to support follow-up enquiries. Unnecessary video/photo attachments will be deleted promptly after review. Records subject to statutory retention obligations or needed for an ongoing dispute will be handled separately, limited to the necessary information and period. Any applicable statutory retention categories and periods will be identified and disclosed before launch. Verification/reply and deletion procedures will also be established before launch; publication of this policy does not confirm that those operational procedures are already in place.
 
 The target audience age and Google Play content rating will be determined before launch. AlertCoin's age-18-and-over criterion does not automatically apply. If actual features or processing change, this section, in-app notices, and Google Play Data safety information will be updated together.
 
