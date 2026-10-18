@@ -374,6 +374,12 @@ AlertCoin's Supabase/Oracle servers, price-alert retention/backup periods, and l
 
 For enquiries and requests for access, correction, deletion, or suspension of processing, contact **vibeforgesoft@gmail.com**. As there are no accounts, it may be difficult to establish the relationship between a requester and particular SDK records. We will explain the outcome or limitations. Turning analytics OFF or deleting an FCM registration will not be presented as confirmation that all historical records have been deleted. For launch, ordinary enquiry emails and handling records will be retained for **90 days after the enquiry is resolved**, then deleted, to support follow-up enquiries. Unnecessary video/photo attachments will be deleted promptly after review. Records subject to statutory retention obligations or needed for an ongoing dispute will be handled separately, limited to the necessary information and period. Any applicable statutory retention categories and periods will be identified and disclosed before launch. Verification/reply and deletion procedures will also be established before launch; publication of this policy does not confirm that those operational procedures are already in place.
 
-The target audience age and Google Play content rating will be determined before launch. AlertCoin's age-18-and-over criterion does not automatically apply. If actual features or processing change, this section, in-app notices, and Google Play Data safety information will be updated together.
+### ONE TAKE audience age
+
+**ONE TAKE is intended for people aged 16 and over. It is not intended for children under 16.** This is ONE TAKE's own audience policy; AlertCoin's age-18-and-over criterion does not apply. Google Play's content rating is determined separately through its rating questionnaire and is not the same as this minimum audience age.
+
+Age confirmation in the app is being prepared for launch and is not yet implemented. Before launch, we will describe the implemented age-confirmation process and any associated data handling here. Setting a minimum audience age does not replace applicable protections for users under 18.
+
+If actual features or processing change, this section, in-app notices, and Google Play Data safety information will be updated together.
 
 [Back to app selection](#vibeforge-privacy-policy)
