@@ -378,7 +378,7 @@ For enquiries and requests for access, correction, deletion, or suspension of pr
 
 **ONE TAKE is intended for people aged 16 and over. It is not intended for children under 16.** This is ONE TAKE's own audience policy; AlertCoin's age-18-and-over criterion does not apply. Google Play's content rating is determined separately through its rating questionnaire and is not the same as this minimum audience age.
 
-Age confirmation in the app is being prepared for launch and is not yet implemented. Before launch, we will describe the implemented age-confirmation process and any associated data handling here. Setting a minimum audience age does not replace applicable protections for users under 18.
+Setting a minimum audience age does not replace applicable protections for users under 18.
 
 If actual features or processing change, this section, in-app notices, and Google Play Data safety information will be updated together.
 
