@@ -1,3 +1,44 @@
+# VibeForge 통합 개인정보처리방침
+
+통합 안내·ONE TAKE 항목 게시일: **2026년 10월 18일**.
+머선129와 AI 클리너의 기존 방침 내용·시행일 및 기존 공개 주소는 유지합니다.
+
+이 방침은 VibeForge의 앱별 개인정보 처리 내용을 한곳에서 안내합니다.
+**각 앱의 항목은 해당 앱에만 적용됩니다.** 한 앱의 광고·통계 설정, 보관기간, 처리업체,
+대상 연령 또는 법적 근거가 다른 앱에 자동으로 적용되지 않습니다.
+
+- [공통 운영자·문의](#common)
+- [머선129 / AlertCoin Native](#alertcoin)
+- [AI 클리너 / AI photo cleaner](#ai-cleaner) · [기존 영문 방침 주소](https://vibeforge.asia/privacy/photocleaner/)
+- [ONE TAKE — 출시 준비 단계 안내](#one-take)
+
+<a id="common"></a>
+## 공통 운영자와 문의
+
+- 운영자: **VibeForge**
+- 개인정보 보호책임자: **안세윤 / Seyun Ahn**
+- 개인정보·지원 문의: [vibeforgesoft@gmail.com](mailto:vibeforgesoft@gmail.com)
+
+개인정보 열람·정정·삭제·처리정지에 관한 문의는 위 이메일로 접수할 수 있습니다.
+문의할 때 앱 이름과 요청 내용을 알려 주세요. 요청에 필요하지 않은 개인 영상·사진·신분증·인증 정보를
+보내지 마세요. 요청자와 관련 기록을 확인할 수 있는 범위, 법령상 보관 의무 등에 따라 처리 범위가 달라질 수
+있으며 처리 결과 또는 제한 사유를 안내합니다. 이메일로 직접 보낸 주소·본문·첨부는 문의 처리에 사용됩니다.
+각 앱의 상세 권리 행사·보관·삭제 기준은 아래 해당 항목을 확인해 주세요.
+
+이 페이지를 통합하는 것만으로 앱의 동의 상태나 실제 데이터 처리가 변경되지는 않습니다.
+기존 두 앱의 본문은 아래에 그대로 보존했습니다. AI 클리너의 기존 영문 페이지도 같은 주소에서 계속 제공됩니다.
+ONE TAKE는 출시 준비 단계의 사전 안내이며, 미확정 운영사항은 해당 항목에 별도로 표시합니다.
+
+---
+
+<a id="alertcoin"></a>
+## 머선129 / AlertCoin Native — 기존 방침
+
+아래 기존 본문의 내용과 시행일은 변경하지 않았습니다. 통계 기본 ON·AdMob·가격 알림 서버와 그 보관 기준은
+머선129에만 적용되며 AI 클리너나 ONE TAKE의 처리 기준이 아닙니다.
+
+<!-- preserved-alertcoin-policy:start -->
+
 # 머선129 개인정보 처리방침
 
 최종 업데이트: 2026년 9월 13일
@@ -115,3 +156,256 @@ Analytics의 광고 ID 수집과 광고 개인화, 계정의 선택적 데이터
 ## 11. 처리방침 변경
 
 개인정보 처리 내용이 변경되면 이 처리방침과 Google Play의 데이터 보안 정보를 함께 갱신하고, 시행일과 최종 업데이트 날짜를 표시합니다.
+
+<!-- preserved-alertcoin-policy:end -->
+
+---
+
+<a id="ai-cleaner"></a>
+## AI 클리너 — 기존 영문 방침
+
+[기존 공개 주소](https://vibeforge.asia/privacy/photocleaner/)와 아래 영문 본문을 유지합니다.
+이 항목에 나오는 사진 분석·광고·선택 SDK와 권한 설명은 AI 클리너에만 적용됩니다.
+
+<!-- preserved-ai-cleaner-body:start -->
+<div lang="en">
+
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> September 16, 2025</p>
+  <p>This policy explains what data our AI-based photo organization/optimization application (the “App”) processes, for what purposes, which third-party services it may use, required permissions, security measures, and your choices.</p>
+
+  <hr>
+
+  <h2>1. Personal Data Collection & Use</h2>
+  <p>The App has no sign-up or login feature and <strong>does not collect or transmit directly identifying personal data</strong> such as your name, email address, or phone number to external servers.<br>
+  Original photos (image data), EXIF location information, and facial feature data are <strong>not uploaded</strong> to any server.</p>
+
+  <h2>2. Data Processed (On-Device Only)</h2>
+  <p>The following data is generated/stored/used <strong>only on your device</strong> to provide photo classification and cleanup features.</p>
+
+  <table>
+    <thead>
+      <tr><th>Category</th><th>Items</th><th>Description</th><th>External Transfer</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Photo metadata</td><td>Internal ID, file size, captured (estimated) time, URI</td><td>From MediaStore queries</td><td>None</td></tr>
+      <tr><td>Hashes</td><td>Perceptual hash (pHash)</td><td>Duplicate detection (irreversible; cannot reconstruct originals)</td><td>None</td></tr>
+      <tr><td>Classification labels</td><td>DUPLICATE / BLUR / LARGE / DOCUMENT / UNKNOWN</td><td>On-device ML/rule results</td><td>None</td></tr>
+      <tr><td>App settings</td><td>Theme, scan options, ads/notifications toggles</td><td>User convenience</td><td>None</td></tr>
+      <tr><td>Scan progress</td><td>Processed count, progress</td><td>UI display / resume processing</td><td>None</td></tr>
+      <tr><td>(Optional) Usage events*</td><td>Feature usage patterns, screen views</td><td>Stability/quality improvement (when Firebase is enabled)</td><td>Pseudonymous to Firebase</td></tr>
+      <tr><td>(Optional) Advertising ID</td><td>Google Advertising ID</td><td>Personalized/non-personalized ads (AdMob)</td><td>Sent by AdMob SDK</td></tr>
+    </tbody>
+  </table>
+  <p><em>*If analytics collection is disabled in the App or OS settings, such data is not sent.</em></p>
+
+  <h2>3. Purposes of Use</h2>
+  <table>
+    <thead><tr><th>Purpose</th><th>Details</th></tr></thead>
+    <tbody>
+      <tr><td>Photo cleanup/optimization</td><td>Automatic grouping of duplicates, blurry shots, large files, and document candidates</td></tr>
+      <tr><td>Storage management</td><td>Help you identify items for deletion/cleanup</td></tr>
+      <tr><td>UX continuity</td><td>Store settings and latest scan state locally</td></tr>
+      <tr><td>(Optional) Quality improvement</td><td>Error/flow insights based on pseudonymous events</td></tr>
+      <tr><td>(Optional) Advertising</td><td>Show personalized or non-personalized ads based on your choice</td></tr>
+    </tbody>
+  </table>
+
+  <h2>4. Third-Party Services & Disclosures</h2>
+  <p>The App may use the services below. We do not provide directly identifying data.</p>
+  <table>
+    <thead><tr><th>Service</th><th>Purpose</th><th>Possible Data Sent (examples)</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Google AdMob</td><td>Advertising</td><td>Advertising ID, device/OS info, basic app usage stats</td><td>Personalized ads can be limited at device/App level</td></tr>
+      <tr><td>Google Play services / FCM (optional)</td><td>Notifications, stability</td><td>Push token (pseudonymous), basic device info</td><td>For important notices/feature updates</td></tr>
+      <tr><td>Firebase Analytics (optional)</td><td>Usage analytics</td><td>Event names and simple parameters (pseudonymous)</td><td>No name/email collection</td></tr>
+      <tr><td>Google ML Kit (on-device)</td><td>Blur/document etc. classification</td><td>None (on-device processing)</td><td>No external image upload</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Ad personalization:</strong> You can reset the Ad ID or limit ad personalization in device settings (e.g., Android), and an in-app “Disable personalized ads” toggle (if provided) takes precedence.</p>
+
+  <h2>5. Retention & Deletion</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Where stored</th><th>Deletion timing</th></tr></thead>
+    <tbody>
+      <tr><td>Hashes/labels/metadata</td><td>App local DB (e.g., Room)</td><td>Upon app uninstall or when you run “Delete scan data”</td></tr>
+      <tr><td>App settings</td><td>Local SharedPreferences/DB</td><td>On app uninstall or settings reset</td></tr>
+      <tr><td>Progress cache</td><td>Temporary memory/DB</td><td>Cleaned after scan completion or app restart</td></tr>
+      <tr><td>(Optional) Analytics events</td><td>Firebase</td><td>Subject to Firebase retention policies (pseudonymous)</td></tr>
+    </tbody>
+  </table>
+  <p>You may remove local data via in-app options such as “Reset data” or “Delete scan results” (if provided).</p>
+
+  <h2>6. App Permissions</h2>
+  <table>
+    <thead><tr><th>Permission</th><th>Purpose</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>READ_MEDIA_IMAGES (or READ_EXTERNAL_STORAGE, per SDK)</td><td>Read photo list/metadata</td><td>Required to scan targets</td></tr>
+      <tr><td>POST_NOTIFICATIONS (optional)</td><td>Progress/completion notifications</td><td>Shows scan status</td></tr>
+      <tr><td>FOREGROUND_SERVICE / DATA_SYNC</td><td>Reliable background scanning</td><td>Complies with platform policies</td></tr>
+      <tr><td>INTERNET</td><td>Ads/SDK connectivity</td><td>No upload of original photos</td></tr>
+      <tr><td>VIBRATE (optional)</td><td>Notification vibration</td><td>User experience</td></tr>
+    </tbody>
+  </table>
+  <p>Permissions are not used for any purpose other than stated above.</p>
+
+  <h2>7. Security</h2>
+  <ul>
+    <li>No server transmission of originals/EXIF/content</li>
+    <li>pHash is irreversible and cannot be back-calculated</li>
+    <li>All network communications use HTTPS</li>
+    <li>Principle of least privilege and regular library updates</li>
+    <li>No storage/transmission of sensitive originals minimizes exposure risk</li>
+  </ul>
+
+  <h2>8. Changes to This Policy</h2>
+  <ol>
+    <li>Material changes will be disclosed in App release notes or settings</li>
+    <li>Important updates may also be notified via in-app notices</li>
+    <li>The latest version is always available at this URL</li>
+  </ol>
+
+  <h2>9. Contact</h2>
+  <table>
+    <thead><tr><th>Item</th><th>Details</th></tr></thead>
+    <tbody>
+      <tr><td>Data Protection Officer</td><td>Seyun Ahn</td></tr>
+      <tr><td>Email</td><td>vibeforgesoft@gmail.com</td></tr>
+      <tr><td>Support channel</td><td>In-app “Send feedback”</td></tr>
+    </tbody>
+  </table>
+
+  <h2>10. On-Device Machine Learning</h2>
+  <ul>
+    <li>All classifications (duplicates/blur/document/large) are computed on the device</li>
+    <li>No external upload of image originals, thumbnails, or EXIF location</li>
+    <li>Hashes/labels are pseudonymous/irreversible and must not be used for re-identification</li>
+    <li>No separate detection of child/sensitive imagery is performed</li>
+  </ul>
+
+  <h2>11. Ad Personalization & Opt-Out</h2>
+  <table>
+    <thead><tr><th>Control</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td>OS settings</td><td>Reset Advertising ID / limit ad personalization</td></tr>
+      <tr><td>In-app setting (if provided)</td><td>“Disable personalized ads” toggle</td></tr>
+      <tr><td>Network-level (advanced)</td><td>Use DNS/firewall according to your device policy</td></tr>
+      <tr><td>Opt-out effect</td><td>Personalized → contextual/general ads</td></tr>
+    </tbody>
+  </table>
+
+  <h2>12. Your Choices</h2>
+  <table>
+    <thead><tr><th>Item</th><th>How to change</th></tr></thead>
+    <tbody>
+      <tr><td>Delete scan data</td><td>Use “Delete scan results” in the App, or uninstall the App</td></tr>
+      <tr><td>Disable notifications</td><td>OS permission settings or in-app toggle</td></tr>
+      <tr><td>Limit ad personalization</td><td>Device settings and in-app toggle</td></tr>
+      <tr><td>Disable analytics</td><td>In-app setting (if provided) or OS-level limit</td></tr>
+    </tbody>
+  </table>
+
+  <h2>13. Legal Basis (as applicable by region)</h2>
+  <ul>
+    <li><strong>Legitimate interests:</strong> storage optimization and provision of core functionality</li>
+    <li><strong>Consent:</strong> personalized advertising and optional usage analytics</li>
+    <li>You may withdraw consent at any time (some features may be limited after withdrawal).</li>
+  </ul>
+
+  <h2>14. International Transfers</h2>
+  <p>The App has no server upload feature for original photos or EXIF/face data, so no such data is transferred abroad. Firebase/AdMob SDKs may process pseudonymous logs on Google infrastructure subject to Google policies (including standard contractual clauses where applicable).</p>
+
+  <hr>
+  <small>This policy may be updated due to feature or legal changes. Previous versions are available on request via email.</small>
+
+</div>
+<!-- preserved-ai-cleaner-body:end -->
+
+---
+
+<a id="one-take"></a>
+## ONE TAKE — 출시 준비 단계 개인정보 안내
+
+게시일: 2026년 10월 18일. 대상 앱: **ONE TAKE** (`com.vibeforge.onetake`).
+ONE TAKE는 출시 준비 중입니다. 아래는 현재 준비된 기능과 개인정보 처리 경계를 설명하는 사전 안내입니다.
+**실제 서비스 공지 푸시(FCM)는 아직 연결하지 않은 상태로 유지합니다.**
+통계·공지의 운영 보관조건 등은 출시 및 실제 서비스 개시 전에 확정하여 이 항목을 갱신합니다.
+이 안내가 서비스 출시나 모든 선택 기능의 제공 개시를 뜻하지는 않습니다.
+
+### ONE TAKE의 서비스와 기기 내 데이터
+
+ONE TAKE는 영상을 촬영하고 작품 정보·효과를 편집하여 완성 영상을 저장·공유하는 Android 앱입니다.
+회원가입·로그인, 광고, 구독, 인앱결제는 제공하지 않습니다. 유료 다운로드 결제는 Google Play에서 처리됩니다.
+
+| 처리 항목 | 목적과 처리 위치 | 보관·삭제 안내 |
+| --- | --- | --- |
+| 카메라 영상·마이크 소리, 촬영본·완성 영상 | 기기에서 촬영·편집·재생·저장 | 앱의 촬영 확인·미디어 삭제 절차에 따릅니다. 공유 미디어 저장공간에 저장된 영상은 앱 삭제 뒤에도 남을 수 있습니다. |
+| 브랜드·작품 제목·참여자 정보, 편집 상태 | 기기의 앱 전용 저장공간에서 제작·복구 | 편집 상태·설정은 자동 백업에서 제외합니다. 앱 삭제 시 사라질 수 있으며 재설치 후 복원을 보장하지 않습니다. |
+| 목록 정보·썸네일·임시 처리 자료·설정 | 기기에서 목록·편집·재생 기능 제공 | 해당 기능의 정리 절차와 Android 저장공간 수명에 따릅니다. 사용자가 복사한 사본은 별도로 관리해야 합니다. |
+
+작품 정보에는 사용자가 입력한 사람 이름이 포함될 수 있습니다. 영상·음성·썸네일과 작품 정보 원문은
+ONE TAKE의 사용 통계나 서비스 공지 데이터로 업로드하지 않습니다. 사용자가 공유 기능에서 다른 앱을
+선택하면 선택한 완성 영상의 읽기 권한을 그 앱에 전달하며, 이후 처리는 수신 서비스의 정책을 따릅니다.
+
+카메라·마이크 권한은 영상과 소리 촬영에 필요합니다. 거절하면 촬영 기능이 제한되며 Android 설정에서
+변경할 수 있습니다. 앱 삭제와 공유 저장공간의 영상 삭제, 외부 서비스에 전달된 데이터 삭제는 서로 다릅니다.
+
+### ONE TAKE의 선택적 이용 통계
+
+통계 공유는 **기본 OFF이며 명시적으로 동의한 경우에만** 수집하도록 구성합니다.
+동의하지 않거나 나중에 꺼도 촬영·편집·저장·공유를 사용할 수 있습니다. 머선129의 기본 ON 설정은 적용하지 않습니다.
+
+동의 시 Google Analytics for Firebase에 전달하도록 준비된 앱 통계는 화면 종류, 제작 단계 성공,
+저장 결과와 정해진 오류 분류입니다. 영상·작품 정보 원문·미디어 위치·작품 ID·푸시 token·앱이 부여한
+사용자 ID를 이벤트에 넣지 않습니다. SDK는 설치별 분석 식별값, 앱·운영체제·기기·언어 정보,
+앱 실행·이용 시간 등의 자동 통계, IP 주소에 기초한 대략적 위치 정보를 처리할 수 있습니다.
+광고 ID 수집·광고 개인화와 공지 연계 Analytics 보고는 사용하지 않도록 구성합니다.
+
+통계를 끄면 새로운 앱 이벤트 전송을 차단하고 SDK 수집·저장 차단을 요청합니다. OFF 동안 앱 이벤트를
+모아 두었다가 다시 보내지 않습니다. 이미 전송 중이거나 서버가 수신한 기록이 즉시 취소·삭제되는 것은 아닙니다.
+
+**운영 전 확정 사항:** 실제 SDK 자동 수집 범위, 상세 통계 보관기간과 활동 시 기간 갱신 여부,
+집계 통계·선택적 데이터 공유 및 외부 연동 설정. 다른 앱의 14개월 보관기간을 ONE TAKE에 적용한 것으로
+표시하지 않습니다. 이 항목을 확정하기 전의 안내를 최종 출시 데이터 보안 고지로 사용하지 않습니다.
+
+### ONE TAKE의 선택적 업데이트·서비스 공지
+
+**현재 실제 FCM 연결은 차단되어 있으며, 다음은 향후 제공할 경우의 처리 방식입니다.**
+공지 동의는 통계 동의와 독립된 선택 사항이고 기본 OFF입니다. 앱의 명시 동의와 Android 알림·채널 허용이
+함께 있어야 합니다. 거절해도 영상 제작을 사용할 수 있습니다. 광고·프로모션이나 개인화 메시지는 보내지 않습니다.
+
+연결 시 Google Firebase Cloud Messaging 및 Firebase Installations는 설치 식별값·등록 정보,
+앱 버전·SDK/기기 정보와 통신에 필요한 정보를 공지 전달에 사용할 수 있습니다. 운영자의 별도 token
+데이터베이스는 두지 않습니다. 공지에는 개인 영상·작품 정보를 포함하지 않습니다.
+
+공지를 끄면 로컬 표시·열기·대기 동작을 먼저 차단합니다. 구독 해제와 등록 삭제는 연결 및 SDK 처리 결과에
+따라 나중에 끝날 수 있습니다. 기존 작업 정리를 위한 통신이나 일시적 등록이 생길 수 있으며,
+앱 삭제·장기 미실행·오프라인 상태에서는 완료 시한을 보장하지 않습니다. 등록 삭제는 설치 ID나
+Analytics·모든 서버 기록의 삭제를 뜻하지 않습니다.
+
+중복 방지용 환경·공지 ID·만료 시각만 기기에 최대 128건 보관하도록 준비되어 있습니다.
+공지 유효기간은 최대 24시간이며 만료 기록은 다음 처리 시 정리합니다. 이 전달 유효기간이 Google의
+모든 기록 보관기간을 뜻하지는 않습니다. 공지 본문·token을 앱의 영구 보관함으로 저장하지 않습니다.
+
+### ONE TAKE의 외부 처리·문의·변경
+
+선택 기능을 운영할 때 Google에 전송되는 데이터는 해당 서비스의 암호화된 통신을 이용하며,
+국외 Google 인프라에서 처리될 수 있습니다. 한국 내에서만 처리·보관된다고 약속하지 않습니다.
+[Google 개인정보처리방침](https://policies.google.com/privacy?hl=ko),
+[Analytics 데이터 보호 안내](https://support.google.com/analytics/answer/6004245?hl=ko),
+[Firebase 개인정보 안내](https://firebase.google.com/support/privacy)를 참고할 수 있습니다.
+
+ONE TAKE에는 머선129의 Supabase·Oracle 서버, 가격 알림용 보관·백업 기간이나 국외 처리의 법적 근거를
+적용하지 않습니다. **ONE TAKE의 선택 기능 운영 전에는 수신자·처리 역할·국가·목적·시점/방법·보관기간,
+적법 근거와 거부 방법·영향을 확정하여 고지합니다.** 이미 외부 서비스가 처리한 데이터와 사본은
+해당 서비스의 보관·삭제 절차를 따르며 앱 삭제만으로 모두 즉시 제거되지는 않습니다.
+
+문의 및 열람·정정·삭제·처리정지 요청은 공통 연락처 **vibeforgesoft@gmail.com**을 이용해 주세요.
+계정이 없으므로 요청자와 특정 SDK 기록의 관계를 확인하기 어려울 수 있습니다. 처리 결과나 제한 사유를
+안내하며, 통계 OFF 또는 FCM 등록 삭제를 모든 과거 기록의 삭제 완료로 표시하지 않습니다.
+문의 메일·처리 기록의 구체적 보관기간과 확인·회신 절차는 출시 전에 확정하여 이 항목에 보완합니다.
+
+대상 연령과 Google Play 콘텐츠 등급은 출시 전에 정합니다. 머선129의 만 18세 이상 기준을 자동 적용하지
+않습니다. 실제 기능·데이터 처리가 변경되면 이 항목과 앱 안내·Google Play 데이터 보안 정보를 함께 갱신합니다.
+
+[앱 선택으로 돌아가기](#vibeforge-통합-개인정보처리방침)
