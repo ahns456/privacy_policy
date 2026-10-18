@@ -16,7 +16,7 @@ This page brings together privacy information for VibeForge apps.
 **Each app-specific section applies only to that app.** One app's advertising or analytics settings, retention periods, service providers, target age, or legal basis do not automatically apply to another app.
 
 - [Operator and contact](#common)
-- [AlertCoin Native (머선129)](#alertcoin)
+- [AlertCoin Native (musun129)](#alertcoin)
 - [AI photo cleaner](#ai-cleaner) · [Existing English policy URL](https://vibeforge.asia/privacy/photocleaner/)
 - [ONE TAKE — pre-launch notice](#one-take)
 
@@ -34,7 +34,7 @@ Combining these notices does not change consent settings or actual data processi
 ---
 
 <a id="alertcoin"></a>
-## AlertCoin Native (머선129) — existing policy, English translation
+## AlertCoin Native (musun129) — existing policy, English translation
 
 The following is an English translation of the existing Korean policy. Its substance and effective date remain unchanged. Analytics enabled by default, AdMob, price-alert servers, and their retention rules apply only to AlertCoin Native, not to AI photo cleaner or ONE TAKE.
 
