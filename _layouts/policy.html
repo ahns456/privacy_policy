@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <style>
+    .language-nav { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px; }
+    .language-nav a { padding:8px 16px; border:1px solid #d0d7de; border-radius:6px; color:#0969da; }
+    .language-nav a[aria-current="page"] { background:#0969da; color:white; font-weight:600; }
+    .language-nav a:focus-visible { outline:3px solid #0969da; outline-offset:3px; }
+    .markdown-body { overflow-wrap:anywhere; }
+    .markdown-body table { display:block; max-width:100%; overflow-x:auto; }
+  </style>
+</head>
+<body>
+  <main class="container-lg px-3 my-5 markdown-body">
+    <nav class="language-nav" aria-label="{% if page.lang == 'ko' %}언어 선택{% else %}Language selection{% endif %}">
+      <a href="{{ '/' | relative_url }}" lang="en" hreflang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
+      <a href="{{ '/ko/' | relative_url }}" lang="ko" hreflang="ko"{% if page.lang == 'ko' %} aria-current="page"{% endif %}>한국어</a>
+    </nav>
+    {{ content }}
+  </main>
+</body>
+</html>
