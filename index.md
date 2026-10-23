@@ -323,10 +323,10 @@ The [existing public URL](https://vibeforge.asia/privacy/photocleaner/) and orig
 <a id="one-take"></a>
 ## ONE TAKE — pre-launch privacy notice
 
-Published: October 18, 2026. App: **ONE TAKE** (`com.vibeforge.onetake`).
+Published: October 18, 2026. ONE TAKE section updated: **October 23, 2026**. App: **ONE TAKE** (`com.vibeforge.onetake`).
 ONE TAKE is preparing for launch. This advance notice describes the features currently prepared and their data-processing boundaries.
 **Live service-notice push messaging (FCM) remains unconnected and blocked.**
-The launch policies for analytics retention, optional integrations, and enquiry records are set out below. Their operational implementation and remaining processing details will be verified and this section updated before launch and actual service operation. This notice does not announce the app's launch or the availability of all optional features.
+The analytics settings and limited QA observations confirmed so far, the enquiry handling procedure, and remaining processing details are set out below. Final account-specific and release-build checks remain separate. This notice does not announce the app's launch or the availability of all optional features.
 
 ### ONE TAKE service and on-device data
 
@@ -344,17 +344,32 @@ Camera and microphone permissions are needed to record video and audio. Denying 
 
 ### Optional ONE TAKE usage analytics
 
-Analytics sharing is configured to be **OFF by default and collected only after explicit consent**. Recording, editing, saving, and sharing remain available if you do not consent or later turn it off. AlertCoin's default-ON setting does not apply.
+Sharing app usage statistics is optional and off by default. If you choose to enable it, ONE TAKE uses
+Google Analytics for Firebase to understand app use and improve the app. You can still capture, edit,
+save and share videos without enabling statistics, and you can turn statistics off in Settings.
 
-The app analytics prepared for transmission to Google Analytics for Firebase after consent comprise screen categories, successful production steps, save results, and predefined error categories. Events do not include video, original production text, media locations, production IDs, push tokens, or app-assigned user IDs. The SDK may process per-installation analytics identifiers, app/operating system/device/language information, automatic analytics such as app launches and engagement time, and approximate location based on IP address. Advertising ID collection, ad personalization, and notice-linked Analytics reporting are configured to be disabled.
+App-generated statistics cover screen types, completed creation steps, export results and predefined error
+categories. We do not send your videos, entered project text, media locations, project identifiers, push
+tokens or an app-assigned user ID as analytics events. The SDK may process an app-instance identifier,
+app and operating-system information, language and basic device information, app launches, sessions,
+engagement time and approximate location derived from IP addresses. Granular location and device data
+collection is set to off; this does not mean that all location, device or network information is excluded.
+Advertising ID collection, ad personalization, automatic screen reporting and notification-linked
+Analytics reporting are configured off.
 
-Turning analytics off blocks new app-event transmission and requests that SDK collection and storage stop. App events are not accumulated while OFF for later transmission. Records already in transit or received by servers are not necessarily cancelled or deleted immediately.
+Turning statistics off blocks new app-generated analytics events and requests that the SDK disable
+collection and storage. The app does not queue screen or creation events while statistics are off for
+later replay. However, when you turn statistics back on, the SDK engagement-time metric may include
+time spent with statistics off. Data already in transit or received by the server is not immediately
+cancelled or deleted. Turning statistics off and requesting deletion of earlier data are separate actions.
 
-**Adopted launch policy:** detailed Analytics user/event data will use a **2-month retention setting**, with **reset on new activity OFF**. Expired data is deleted through Google's monthly deletion process, not necessarily exactly 60 days after collection. Standard aggregated reports are outside this retention setting; we do not promise that all analytics will be deleted after two months.
+User-level and event-level data retention is set to two months, with reset on new activity off.
+Expired data follows Google’s monthly deletion process; this is not a promise that every copy is deleted
+exactly after 60 days. Standard aggregated reports are not subject to this retention setting.
+Google Signals is inactive, and ad personalization and optional account data sharing are off.
+Our operating policy is not to add Google Ads or BigQuery links.
 
-Analytics will be used only to improve the app. Google Signals, advertising integrations, BigQuery exports, and optional data sharing will initially be disabled or left unconnected. Another app's 14-month retention period does not apply to ONE TAKE.
-
-**Before operation:** we will verify that the actual settings match this policy and confirm the scope of SDK automatic collection and aggregated processing. Adopting this policy does not confirm that the operational settings have already been applied. This pre-launch notice must not be used as the final launch Data safety disclosure before those checks are complete.
+**Verification scope (October 23, 2026):** the test and production property settings were saved and checked again after 24 hours. Event receipt and withdrawal were observed only in a separate QA environment; this is not evidence of production collection, deletion of every server copy, or validation of the final release build. The engagement-time limitation described above remains unresolved. Final account-specific processing details and release Data safety disclosure remain to be checked before launch.
 
 ### Optional ONE TAKE updates and service notices
 
@@ -372,7 +387,7 @@ When optional features operate, data sent to Google uses the relevant service's 
 
 AlertCoin's Supabase/Oracle servers, price-alert retention/backup periods, and legal basis for international processing do not apply to ONE TAKE. **Before operating ONE TAKE's optional features, we will finalise and disclose recipients, processing roles, countries, purposes, timing/methods, retention periods, legal grounds, and how to refuse processing and the effects of refusal.** Data and copies already processed by external services follow those services' retention/deletion procedures; uninstalling does not immediately remove everything.
 
-For enquiries and requests for access, correction, deletion, or suspension of processing, contact **vibeforgesoft@gmail.com**. As there are no accounts, it may be difficult to establish the relationship between a requester and particular SDK records. We will explain the outcome or limitations. Turning analytics OFF or deleting an FCM registration will not be presented as confirmation that all historical records have been deleted. For launch, ordinary enquiry emails and handling records will be retained for **90 days after the enquiry is resolved**, then deleted, to support follow-up enquiries. Unnecessary video/photo attachments will be deleted promptly after review. Records subject to statutory retention obligations or needed for an ongoing dispute will be handled separately, limited to the necessary information and period. Any applicable statutory retention categories and periods will be identified and disclosed before launch. Verification/reply and deletion procedures will also be established before launch; publication of this policy does not confirm that those operational procedures are already in place.
+For enquiries and requests for access, correction, deletion, or suspension of processing, contact **vibeforgesoft@gmail.com**. As there are no accounts, it may be difficult to establish the relationship between a requester and particular SDK records. We will explain the outcome or limitations. Turning analytics OFF or deleting an FCM registration will not be presented as confirmation that all historical records have been deleted. For launch, ordinary enquiry emails and handling records will be retained for **90 days after the enquiry is resolved**, then deleted, to support follow-up enquiries. Unnecessary video/photo attachments will be deleted promptly after review. Records subject to statutory retention obligations or needed for an ongoing dispute will be handled separately, limited to the necessary information and period. Any applicable statutory retention categories and periods will be identified and disclosed before launch. When we receive a request, we determine its scope and the minimum verification needed. We act on records we can identify, or explain the scope and reasons for any limitation. We cannot remotely access or delete videos or editing data stored on your device. When an ordinary enquiry is resolved, we record its deletion date and delete the related emails and handling records under our control according to the retention period stated above.
 
 When you open ONE TAKE’s in-app help and contact option, the app prepares an editable email with the app version (including build number), Android version, manufacturer, and device model to help us understand your enquiry. You can change or remove these details before sending. They reach us only if you send the email using your email app. Device identifiers, serial numbers, advertising IDs, videos, photos, and logs are not automatically included or attached.
 
