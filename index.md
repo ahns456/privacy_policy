@@ -323,10 +323,10 @@ The [existing public URL](https://vibeforge.asia/privacy/photocleaner/) and orig
 <a id="one-take"></a>
 ## ONE TAKE — pre-launch privacy notice
 
-Published: October 18, 2026. ONE TAKE section updated: **October 23, 2026**. App: **ONE TAKE** (`com.vibeforge.onetake`).
+Published: October 18, 2026. ONE TAKE section updated: **October 24, 2026**. App: **ONE TAKE** (`com.vibeforge.onetake`).
 ONE TAKE is preparing for launch. This advance notice describes the features currently prepared and their data-processing boundaries.
-**Live service-notice push messaging (FCM) remains unconnected and blocked.**
-The analytics settings and limited QA observations confirmed so far, the enquiry handling procedure, and remaining processing details are set out below. Final account-specific and release-build checks remain separate. This notice does not announce the app's launch or the availability of all optional features.
+**The release candidate includes optional service-notice push messaging (FCM), off by default and enabled only after your consent and Android notification permission.**
+The analytics settings and limited QA observations confirmed so far, the enquiry handling procedure, and remaining processing details are set out below. Account-specific operational details and final release testing remain separate. This notice does not announce the app's launch or the availability of all optional features.
 
 ### ONE TAKE service and on-device data
 
@@ -373,13 +373,13 @@ Our operating policy is not to add Google Ads or BigQuery links.
 
 ### Optional ONE TAKE updates and service notices
 
-**Live FCM connectivity is currently blocked. The following describes processing if this feature is offered in the future.** Notice consent is separate from analytics consent and is OFF by default. Both explicit in-app consent and Android notification/channel permission are required. Declining does not prevent video creation. Advertising, promotional, or personalised messages will not be sent.
+The release candidate connects to Firebase Cloud Messaging for optional updates and service notices. Notice consent is separate from analytics consent and is OFF by default. Both explicit in-app consent and Android notification/channel permission are required. Declining does not prevent video creation. Advertising, promotional, or personalised messages will not be sent.
 
-When connected, Google Firebase Cloud Messaging and Firebase Installations may use installation identifiers, registration information, app version, SDK/device information, and information needed for communication to deliver notices. The Operator will not maintain a separate token database. Notices will not contain personal video or production information.
+When you enable notices, Google Firebase Cloud Messaging and Firebase Installations may use installation identifiers, registration information, app version, SDK/device information, and information needed for communication to deliver notices. The Operator will not maintain a separate token database. Notices will not contain personal video or production information.
 
 Turning notices off first blocks local display, opening, and pending actions. Unsubscription and registration deletion may complete later, depending on connectivity and SDK processing. Communication or temporary registration may occur to clean up earlier operations. Completion deadlines are not guaranteed after uninstalling, prolonged inactivity, or while offline. Registration deletion does not mean deletion of the installation ID, Analytics data, or all server records.
 
-The app is prepared to retain only environment/notice IDs and expiry times for deduplication, up to 128 entries on the device. Notices have a maximum validity of 24 hours, and expired entries are cleaned up during the next processing operation. This delivery validity period is not the retention period for all Google records. Notice bodies and tokens are not kept in a permanent app archive.
+The app retains only environment/notice IDs and expiry times for deduplication, up to 128 entries on the device. Notices have a maximum validity of 24 hours, and expired entries are cleaned up during the next processing operation. This delivery validity period is not the retention period for all Google records. Notice bodies and tokens are not kept in a permanent app archive.
 
 ### ONE TAKE external processing, enquiries, and changes
 
